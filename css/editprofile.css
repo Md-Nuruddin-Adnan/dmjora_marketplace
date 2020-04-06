@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+::after, ::before {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, ol, ul, p, address, strong, i {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: normal;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+/* basic css end */
+
+/* main css start */
+body {
+  background: #f8fafc;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* new request file start */
+.sec-heading {
+  padding: 80px 0;
+}
+
+.sec-heading h2 {
+  font-size: 20px;
+  color: #222;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+/* end of section title */
+
+/* tab menu start */
+.nav-tabs {
+  border: 1px solid #ced4da;
+  border-radius: 50px;
+  margin-bottom: 80px;
+  background: #fff;
+}
+
+.nav-tabs a {
+  font-size: 16px;
+  color: #10a2ef;
+  padding: 15px 0;
+  flex-grow: 1;
+  display: block;
+  border-radius: 50px;
+  margin: 2px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nav-tabs a.active {
+  background: #10a2ef;
+  color: #fff;
+}
+/* end of tab menu */
+
+/* edit profile start */
+.form-control {
+  font-size: 16px;
+  color: #8895b4;
+  padding: 15px;
+  height: auto;
+}
+
+select.form-control {
+  padding: 17px;
+}
+
+.edit-img .form-control {
+  margin: 50px 0 60px 0;
+}
+
+textarea.form-control {
+  height: 200px;
+  resize: none
+}
+
+.custom-file .custom-file-label {
+  background: transparent;
+  border: none;
+  color:#10a2ef;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+.custom-file .custom-file-label span {
+  color:#10a2ef;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: underline;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.custom-file-label::before {
+  display: none;
+}
+
+.custom-file-label::after {
+  display: none;
+}
+
+.custom-file {
+  width: auto;
+}
+
+#security label,
+#payments label {
+  right: 0;
+  top: 25%;
+  position: absolute;
+  transform: translate(-50%);
+  color: #777;
+}
+
+#notifications .custom-control-label {
+  font-size: 16px;
+  color: #777;
+  line-height: 32px;
+  margin-top: 10px;
+}
+
+#notifications .dash-border {
+  border-top: 2px dashed #ced4da;
+  width: 100%;
+  height: 1px;
+  margin-top: 80px;
+}
+
+.submit-btn {
+  text-align: center;
+}
+
+.submit-btn .btn {
+  background: #10a2ef;
+  color: #fff;
+  padding: 10px 60px;
+  margin-top: 60px;
+}
+/* end of new edit profile */

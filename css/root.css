@@ -1,0 +1,577 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+  
+::after, ::before {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, ol, ul, p, address, strong, i {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: normal;
+}
+   
+ul, li {
+  list-style: none;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+body {
+  background: #f8fafc;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* basic css end */
+
+/* common css start */
+.sec-h2 {
+  font-size: 24px;
+  color: #222;
+  margin-bottom: 30px;
+}
+
+.sec-h3 {
+  font-size: 20px;
+  color: #222;
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 14px;
+  color: #748f9e;
+}
+
+.my-btn {
+  font-size: 12px;
+  color: #fff;
+  font-weight: bold;
+  background: #10a2ef;
+  padding: 10px 60px;
+  text-align: center;
+}
+
+/*// end of common css */
+
+/* main css start */
+
+/* =====header part start======= */
+.navbar-brand img {
+  width: 60%;
+}
+
+.navbar .form-group {
+  position: relative;
+}
+
+.navbar .form-inline .form-control {
+  width: 500px;
+  padding: 20px 20px 20px 50px;
+  font-size: 12px;
+  color: #d0d5de;
+  border-radius: 50px;
+  background: #f8fafc;
+}
+
+.navbar .form-inline label {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 15px;
+  color: #d0d5de;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar .notificaion i {
+  font-size: 25px;
+  color: #222;
+  padding: 10px;
+  display: block;
+  line-height: 50px;
+  transition: all 0.3s linear;
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  -ms-transition: 0.3s linear
+}
+
+.navbar .notificaion i:hover {
+  color: #10a2ef;
+}
+
+.navbar .notificaion sub i {
+  font-size: 12px;
+  color: red;
+  position: absolute;
+}
+
+.navbar .notificaion sub i:hover {
+  color: red;
+}
+
+.navbar .notificaion sub {
+  left: -25px;
+}
+
+.navbar .user img {
+  width: 50px;
+  vertical-align: text-top;
+  margin: 5px 10px 0 0;
+}
+
+.navbar .user-name {
+  font-size: 12px;
+  color: #222;
+  margin-top: 17px;
+}
+
+.navbar .earning {
+  font-size: 12px;
+  color: #2ec09c;
+}
+
+.navbar .dropdown i {
+  width: 35px;
+  height: 35px;
+  background: #f5f7f9;
+  color: #222;
+  font-size: 15px;
+  display: grid;
+  place-items: center center;
+  border-radius: 5px;
+  margin: 15px 0 0 10px;
+  transition: all 0.3s linear;
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  -ms-transition: 0.3s linear
+}
+
+.navbar .dropdown i:hover {
+  background: #10a2ef;
+  color: #fff;
+}
+
+.navbar .notificaion {
+  padding: 0 15px;
+  border-right: 1px solid #ced4da; 
+}
+
+.navbar .user {
+  padding: 0 15px;
+}
+/*//===== navbar end ====*/
+
+/* ======== banner css start ======= */
+.bnr-top .pagenation {
+  font-size: 14px;
+  color: #10a2ef;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+.bnr-top .rating i {
+  color: #fcb059;
+  font-size: 14px;
+  padding-right: 5px;
+}
+
+.bnr-top .rating span {
+  color: #fcb059;
+  font-size: 14px;
+}
+
+.bnr-btn .btn-sm {
+  background: #10a2ef;
+  color: #fff;
+  font-size: 12px;
+  margin: 15px 0;
+}
+
+
+.bnr-slide .slide-item {
+  width: 100%;
+  height: 350px;
+}
+
+.bnr-slide {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.bnr-slide .slide-item-1 {
+  background: url(../images/banner-root.png) no-repeat center center/cover;
+}
+.bnr-slide .slide-item-2 {
+  background: url(../images/banner-slide.png) no-repeat center center/cover;
+}
+.bnr-slide .slide-item-3 {
+  background: url(../images/banner-root.png) no-repeat center center/cover;
+}
+/* ========//end of banner css  ======= */
+
+
+/* ======== service description list  ======= */
+.description {
+  padding: 30px;
+  background: #fff;
+  border: 1px solid #d0d5de;
+  border-radius: 15px;
+  margin: 30px 0;
+}
+
+.description ul {
+  padding: 15px 0;
+}
+
+.description ul li {
+  font-size: 14px;
+  color: #748f9e;
+  padding: 5px 0;
+}
+/* ========// end of service description  ======= */
+
+
+/* ======== price plan start   ======= */
+.price-plan .table {
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.price-plan .table th {
+  font-size: 14px;
+  color: #748f9e;
+}
+
+.price-plan .table tr {
+  font-size: 14px;
+  color: #222;
+  text-align: center;
+}
+
+.price-plan .top th {
+  color: #10a2ef;
+}
+
+.price-plan .bottom a {
+  text-decoration: underline;
+} 
+/* ======== end of price plan  ======= */
+
+
+/* ======== additions part start ======= */
+.additional {
+  background: #fff;
+  border-radius: 15px;
+  border: 1px solid #d0d5de;
+  padding: 30px;
+  margin: 30px 0;
+}
+
+.additional .delivery,
+.additional .revision {
+  padding: 15px 0;
+  font-size: 14px;
+  color: #444;
+}
+
+.additional .delivery {
+  border-top: 1px dashed #d0d5de;
+  border-bottom: 1px dashed #d0d5de;
+}
+
+.additional .delivery label,
+.additional .revision label{
+  font-size: 14px;
+  color: #444;
+  margin-top: 10px;
+  line-height: 30px;
+}
+
+.additional .delivery .price,
+.additional .revision .price {
+  margin-top: 10px;
+}
+
+ .buy-btn {
+  background:#10a2ef;
+  color: #fff;
+}
+/* ========//end of additions part ======= */
+
+
+/* ========review part start ======= */
+.review-top {
+  padding: 80px  0;
+}
+.review-top .reviews {
+  color: #222;
+  font-size: 20px;
+}
+
+.review-top .r-border {
+  width: 35%;
+  height: 1px;
+  border: 1px dashed #d0d5de;
+  margin: 15px 0 0 15px;
+}
+
+.review-top .star i{
+  font-size: 15px;
+  padding: 5px;
+  color: #fcb059;
+}
+
+.review-top .star{
+  text-align: center;
+}
+
+.review-top .rating {
+  margin: 0 15px;
+}
+
+.customar-review .table {
+  background: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.customar-review th {
+  font-size: 14px;
+  color: #10a2ef;
+  font-weight: normal;
+}
+
+.customar-review thead th {
+  color: #444;
+}
+
+.customar-review td {
+  font-size: 14px;
+}
+
+.customar-review .table td, .table th {
+  vertical-align: middle;
+}
+
+.customar-review i {
+  font-size: 15px;
+  padding: 0 5px;
+  color: #fcb059;
+}
+/* ========// end of review part  ======= */
+
+
+
+/* ======== Other root start  ======= */
+#other {
+  padding: 100px 0 80px 0;
+}
+/* ======== end of Other root   ======= */
+
+
+/* ======== side bar start ======= */
+.side-user {
+  padding: 30px;
+  background-color: #fff;
+  border: 1px solid #d0d5de;
+  border-radius: 15px;
+  overflow: hidden;
+  font-size: 12px;
+}
+
+.side-user .profile-pic {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.side-user .profile-pic img {
+  width: 100%;
+}
+
+.side-user .rating {
+  text-align: center;
+}
+
+.side-user .rating i {
+  font-size: 15px;
+  color: #fcb059;
+  padding: 15px 5px;
+}
+
+.side-user .para {
+  text-align: center;
+  padding: 0 0 15px 0;
+}
+
+.side-user .table td {
+  padding: 5px;
+}
+
+.side-user tr td:last-child {
+text-align: right;
+width: 50%;
+}
+
+.side-user tr td:first-child {
+width: 50%;
+}
+
+.side-user .table {
+  border-top: 1px dashed #d0d5de;
+  border-bottom: 1px dashed #d0d5de;
+  padding: 20px 0;
+  margin: 20px 0;
+}
+
+.side-user .sequrity-img {
+  width: 20%;
+}
+
+.side-user .sequrity-img img {
+  margin-top: 20px;
+}
+/* ======== end of side bar ======= */
+
+
+
+
+
+
+
+
+
+
+/* card part start */
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+  border: none;
+  background: transparent;
+}
+
+.card .card-img {
+  width: 100%;
+  max-height: 200px;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.card .user-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.card .user-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card-title {
+  padding: 0 5px;
+}
+
+.card .user-name {
+  font-size: 12px;
+  color: #222;
+  text-transform: capitalize;
+  margin-top: 10px;
+}
+
+.card .user-name:hover {
+  text-decoration: underline;
+}
+
+.card .service-name {
+  font-size: 10px;
+  color: #748f9e;
+  text-transform: uppercase;
+}
+
+.card .rating {
+  font-size: 10px;
+  color: #fcb059;
+}
+
+.card .seler-level {
+  font-size: 10px;
+  color: #2ec09c;
+  display: block;
+  margin-top: 8px;
+}
+
+.card .price-txt {
+  font-size: 10px;
+  color: #222;
+  display: block;
+  margin-top: -25px;
+}
+
+.card .price {
+  font-size: 10px;
+  color: #2ec09c;
+  display: block;
+  margin-top: -25px;
+}
+
+.card-text {
+  padding: 0 5px;
+}
+/* //end of card part */
+
+/* ===== footer section start ======= */
+#footer {
+  padding: 40px 0;
+  background: #fff;
+}
+
+#footer .sec-h3 {
+  color: #10a2ef;
+}
+
+#footer li a {
+  font-size: 16px;
+  color: #748f9e;
+  display: block;
+  padding: 5px 0;
+}
+
+#footer .f-link img {
+  padding: 0 10px 30px 0;
+}
+/* ===== footer section end ======= */
+
+
+/* ========== Responsive part start  ============ */
+@media(max-width: 575px) {
+  .card .card-img {
+    max-height: initial;
+  }
+}
+
+@media (min-width: 1200px) {
+  #header .container {
+    max-width: 80%;
+  }
+
+  #footer .container {
+    max-width: 80%;
+  }
+
+  .container {
+    /* max-width: 80%; */
+  }
+
+}

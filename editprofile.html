@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>edit profile</title>
+  <link rel='shortcut icon' href='images/logo.png' type='image/x-icon'>
+  <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet"> -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/editprofile.css">
+</head> 
+<body>
+  <!--========== new request start ===========-->
+  <section class="sec-heading">
+    <div class="container">
+      <h2>Personal Info</h2>
+      <!--======= tab part start =========-->
+      <div class="row">
+        <div class="col-md-12">
+          <!--======= tab menu start =========-->
+          <ul class="nav nav-tabs nav-justified">
+            <li class="nav-item active"><a class="active" data-toggle="tab" href="#account">Account</a></li>
+            <li class="nav-item"><a data-toggle="tab" href="#security">Security</a></li>
+            <li class="nav-item"><a data-toggle="tab" href="#payments">Payments</a></li>
+            <li class="nav-item"><a data-toggle="tab" href="#notifications">Notifications</a></li>
+          </ul>
+          <!-- ========== // end of tab menu========== -->
+        
+          <div class="tab-content">
+
+              <!-- first tab start -->
+              <div id="account" class="tab-pane fade in active show">
+                    <form action="" method="">
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <img src="images/Edit-Profile.png" alt="profile picture" class="img-fluid">
+                            <div class="custom-file">
+                                <input type="file" class="custom-file-input">
+                                <label class="custom-file-label" for="validatedCustomFile"><span>upload attachements</span></i></label>
+                              </div>
+                          </div>
+                      <div class="col-md-6 edit-img">
+                        <div class="form-group">
+                          <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="User Type">
+                        </div>
+                      </div>
+
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="First Name">
+                        </div>
+                      </div>
+
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="Last Name">
+                        </div>
+                      </div>
+
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <select class="form-control" name="Category" id="">
+                          <option>Country</option>
+                          <option>Country-1</option>
+                          <option>Country-2</option>
+                          <option>Country-3</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <select class="form-control" name="Category" id="">
+                          <option>Time Zone</option>
+                          <option>GMT+6</option>
+                          <option>GMT+6</option>
+                          <option>GMT+6</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <select class="form-control" name="Category" id="">
+                          <option>Preffered language</option>
+                          <option>English</option>
+                          <option>Bangla</option>
+                          <option>Arabic</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <select class="form-control" name="Category" id="">
+                          <option>Additionla language</option>
+                          <option>English</option>
+                          <option>Bangla</option>
+                          <option>Arabic</option>
+                        </select>
+                      </div>
+                    </div>
+
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input type="email" class="form-control" name="" id="" placeholder="Email" required>
+                    </div>
+                  </div>
+
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input type="text" class="form-control" name="" id="" placeholder="Phone Number" required>
+                      </div>
+                    </div>
+
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <textarea class="form-control" name="Description" id=""  placeholder="Profile Describtion"></textarea>
+                    </div>
+                  </div>
+
+                  <div class="col-12 submit-btn">
+                    <button class="btn" type="submit">Send repuest</button>
+                  </div>
+                 </div>
+                </form>
+              </div>
+              <!-- end of first tab -->
+
+              <!-- second tab start -->
+              <div id="security" class="tab-pane fade">
+                <form action="" method="">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group position-relative">
+                        <label for=""><i class="far fa-eye"></i></label>
+                        <input type="password" class="form-control" name="" id="" placeholder="Current Password">
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group position-relative">
+                        <label for=""><i class="far fa-eye"></i></label>
+                        <input type="password" class="form-control" name="" id="" placeholder="New Password">
+                      </div>
+                    </div>
+                    <div class="col-12 submit-btn">
+                        <button class="btn" type="submit">SAVE CHANGES</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <!-- //end of second tab -->
+
+              <!-- third tab start -->
+              <div id="payments" class="tab-pane fade">
+                  <form action="" method="">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <input type="text" class="form-control" name="" id="" placeholder="PayPal Payment">
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group position-relative">
+                            <label for=""><i class="far fa-eye"></i></label>
+                            <input type="text" class="form-control" name="" id="" placeholder="CASHU Payment">
+                          </div>
+                        </div>
+                        <div class="col-12 submit-btn">
+                            <button class="btn" type="submit">SAVE CHANGES</button>
+                        </div>
+                      </div>
+                    </form>
+              </div>
+              <!-- //end of third tab -->
+
+              <!-- last tab start -->
+              <div id="notifications" class="tab-pane fade">
+                <form action="">
+                  <div class="row">
+                      <div class="col-md-10">
+                          <div class="form-group">
+                            <select class="form-control" name="cetagory" id="">
+                              <option>Select categories to be notified once a buyer post a request</option>
+                              <option>cetagory-1</option>
+                              <option>cetagory-2</option>
+                              <option>cetagory-3</option>
+                            </select>
+                          </div>
+                      </div>
+
+                      <div class="col-md-2 text-right">
+                          <div class="custom-control custom-checkbox">
+                              <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
+                              <label class="custom-control-label" for="customCheck">All categories</label>
+                          </div>
+                      </div>
+
+                      <div class="col-md-4">
+                          <div class="custom-control custom-switch">
+                              <input type="checkbox" class="custom-control-input" id="switch1">
+                              <label class="custom-control-label" for="switch1">Enable site notifications</label>
+                          </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="custom-control custom-switch">
+                              <input type="checkbox" class="custom-control-input" id="switch2">
+                              <label class="custom-control-label" for="switch2">Enable message notifications</label>
+                          </div>
+                      </div>
+                      
+                      <div class="col-md-12">
+                        <div class="dash-border"></div>
+                      </div>
+
+                      <div class="col-12 submit-btn">
+                          <button class="btn" type="submit">SAVE CHANGES</button>
+                      </div>
+                  </div>
+                </form>
+              </div>
+              <!-- //end of last tab -->
+
+            
+          </div><!-- // end of tab content -->
+        </div>
+      </div>
+      
+      
+        </div>
+  </section>
+  <!--==========// end of tab part ===========-->
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+</html>

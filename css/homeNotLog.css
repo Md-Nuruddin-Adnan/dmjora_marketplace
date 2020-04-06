@@ -1,0 +1,383 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+ 
+::after, ::before {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, ol, ul, p, address, strong, i {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: normal;
+}
+ 
+ul, li {
+  list-style: none;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+body {
+  background: #f8fafc;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* basic css end */
+
+/* common css start */
+.sec-h2 {
+  font-size: 24px;
+  color: #222;
+  margin-bottom: 30px;
+}
+
+.sec-h3 {
+  font-size: 20px;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 14px;
+  color: #748f9e;
+}
+
+.my-btn {
+  font-size: 12px;
+  color: #fff;
+  font-weight: bold;
+  background: #10a2ef;
+  padding: 10px 60px;
+}
+
+.my-btn {
+  text-align: center;
+}
+
+/*// end of common css */
+
+/* main css start */
+
+/* =====header part start======= */
+.navbar-brand img {
+  width: 60%;
+}
+
+.navbar .form-group {
+  position: relative;
+}
+
+.navbar .form-inline .form-control {
+  width: 500px;
+  padding: 20px 20px 20px 50px;
+  font-size: 12px;
+  color: #d0d5de;
+  border-radius: 50px;
+  background: #f8fafc;
+}
+
+.navbar .form-inline label {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 15px;
+  color: #d0d5de;
+}
+
+.navbar .btn-log {
+  color: #10a2ef;
+  border: 1px dashed #10a2ef;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px 25px;
+  transition: all 0.3s linear;
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  -ms-transition: 0.3s linear;
+}
+
+.navbar .btn-log:hover {
+  background: #10a2ef;
+  color: #fff;
+}
+
+.navbar .btn-reg {
+  color: #fff;
+  background: #10a2ef;
+  border: 1px dashed #10a2ef;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px 15px;
+  transition: all 0.3s linear;
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  -ms-transition: 0.3s linear;
+}
+
+.navbar .btn-reg:hover {
+  background: #0785c8;
+}
+
+.navbar {
+  padding: 0;
+}
+
+/* ========= tab menu start ==========*/
+.nav-tabs {
+  border: 1px solid #ced4da;
+  border-radius: 50px;
+  margin-bottom: 40px;
+  background: #fff;
+}
+
+.nav-tabs .nav-item {
+  text-align: center;
+  margin: auto;
+}
+
+.nav-tabs a {
+  font-size: 12px;
+  color: #10a2ef;
+  padding: 12px;
+  flex-grow: 1;
+  display: block;
+  border-radius: 50px;
+  margin: 2px;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.nav-tabs a.active {
+  background: #10a2ef;
+  color: #fff;
+}
+
+.nav-tabs .nav-item:first-child {
+  margin-right: auto !important;
+  margin: 0 !important;
+}
+
+.nav-tabs .nav-item:last-child {
+  margin-left: auto !important;
+  margin: 0 !important;
+}
+/*// ==========end of tab menu======= */
+
+/* =====// end of header part ======= */
+
+
+
+/* =====// slider pafr strat ======= */
+.bnr-slide .slide-item {
+width: 100%;
+height: 50vh;
+background-color: #f1f1f1;
+border-radius: 15px;
+}
+
+.bnr-slide .slide-item-1 {
+  background: url(../images/banner-slide.png) no-repeat center center/cover;
+}
+.bnr-slide .slide-item-2 {
+  background: url(../images/banner-slide.png) no-repeat center center/cover;
+}
+.bnr-slide .slide-item-3 {
+  background: url(../images/banner-slide.png) no-repeat center center/cover;
+}
+/* =====// end of slider pafr  ======= */
+
+
+/* ===== work section start  ======= */
+#work {
+  margin: 80px 0;
+}
+#work .left-cont img {
+  vertical-align: top;
+  margin: 0 40px 60px 0;
+  display: block;
+}
+/* ===== end of work section  ======= */
+
+/* ===== cetagory section start  ======= */
+#cetagory {
+  padding-bottom: 80px;
+}
+
+#cetagory .cetagory-list {
+  text-align: center;
+  display: grid;
+  place-items: center center;
+  border: 1px dashed #ced4da;
+  background: #fff;
+  padding: 50px 0;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+#cetagory .sec-h3 {
+  margin-bottom: 30px;
+  line-height: 30px;
+}
+
+#cetagory .cetagory-list p {
+  margin-top: 40px;
+}
+/* ===== //end ofcetagory section  ======= */
+
+
+/* ===== popular section start ======= */
+#popular {
+  padding-bottom: 80px;
+}
+
+#popular .sec-h3 {
+  margin-bottom: 30px;
+  line-height: 30px;
+}
+
+/* card part start */
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+  border: none;
+  background: transparent;
+}
+
+.card .card-img {
+  width: 100%;
+  max-height: 200px;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.card .user-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.card .user-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card-title {
+  padding: 0 5px;
+}
+
+.card .user-name {
+  font-size: 12px;
+  color: #222;
+  text-transform: capitalize;
+  margin-top: 10px;
+}
+
+.card .user-name:hover {
+  text-decoration: underline;
+}
+
+.card .service-name {
+  font-size: 10px;
+  color: #748f9e;
+  text-transform: uppercase;
+}
+
+.card .rating {
+  font-size: 10px;
+  color: #fcb059;
+}
+
+.card .seler-level {
+  font-size: 10px;
+  color: #2ec09c;
+  display: block;
+  margin-top: 8px;
+}
+
+.card .price-txt {
+  font-size: 10px;
+  color: #222;
+  display: block;
+  margin-top: -25px;
+}
+
+.card .price {
+  font-size: 10px;
+  color: #2ec09c;
+  display: block;
+  margin-top: -25px;
+}
+
+.card-text {
+  padding: 0 5px;
+}
+/* //end of card part */
+
+/* ===== //end of popular section ======= */
+
+/* ===== popular section start ======= */
+#latest {
+  padding-bottom: 80px;
+}
+
+#latest .sec-h3 {
+  margin-bottom: 30px;
+  line-height: 30px;
+}
+/* ===== //end of popular section ======= */
+
+
+/* ===== footer section start ======= */
+#footer {
+  padding: 40px 0;
+  background: #fff;
+}
+
+#footer .sec-h3 {
+  color: #10a2ef;
+}
+
+#footer li a {
+  font-size: 16px;
+  color: #748f9e;
+  display: block;
+  padding: 5px 0;
+}
+
+#footer .f-link img {
+  padding: 0 10px 30px 0;
+}
+/* ===== footer section end ======= */
+
+
+
+
+
+/* ========== Responsive part start  ============ */
+@media(max-width: 575px) {
+  .card .card-img {
+    max-height: initial;
+  }
+}
+
+@media (min-width: 1200px) {
+  #header .container {
+    max-width: 80%;
+  }
+
+  #footer .container {
+    max-width: 80%;
+  }
+
+  .container {
+    /* max-width: 80%; */
+  }
+
+}
